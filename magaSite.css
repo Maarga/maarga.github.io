@@ -282,3 +282,57 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ 
+.side {
+  flex: 30%;
+  background-color: #AFF8DB;
+  padding: 20px;
+}
+
+
+.main {
+  flex: 70%;
+  background-color: #B28DFF;
+  padding: 20px;
+}
+
+
+.fakeimg {
+  background-color: #BFFCC6;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ECD4FF;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}

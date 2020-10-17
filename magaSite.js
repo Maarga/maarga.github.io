@@ -139,7 +139,7 @@ var intervalId = setInterval (myFunction, 1000)
 			alert("you logged out")
 			isloggedin = false
 		}
-		}
+    }
 //-Calculator
 
 function dis(val) 
